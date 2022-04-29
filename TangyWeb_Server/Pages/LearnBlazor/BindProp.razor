@@ -2,11 +2,15 @@
 
 <h3>Product</h3>
 <p>Name: @Product.Name</p>
-<p>Name: @Product.IsActive</p>
+<p>Active: @Product.IsActive</p>
+<p>Price: @Product.Price</p>
+<br>
 
-Orignal Price: @Product.Price
-<br/>
-"Changed" Price: <input type="number" @bind="@Product.Price" @bind:event="oninput">
+<label for="active">Active: </label>
+<input id="active" type="checkbox" @bind="Product.IsActive" @bind:event="oninput">
+<br>
+<label for="price">Price: </label>
+<input id="price" type="number" @bind="Product.Price" @bind:event="oninput">
 
 @code {
     Tangy_Models.LearnBlazorModels.Demo_Product Product = new()
