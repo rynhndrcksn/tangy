@@ -6,12 +6,14 @@
     <projectFile profileName="TangyWeb_Client">TangyWeb_Client/TangyWeb_Client.csproj</projectFile>
     <projectFile profileName="IIS Express">TangyWeb_Client/TangyWeb_Client.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="28bf0db4-1589-4c03-bc25-45844e3e8202" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tangy/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tangy/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tangy/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tangy/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tangy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tangy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/BindProp.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/BindProp.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tangy_Models/LearnBlazorModels/Demo_Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tangy_Models/LearnBlazorModels/Demo_Product.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +44,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.TangyWeb_Client">
+  <component name="RunManager" selected=".NET Launch Settings Profile.TangyWeb_Server">
     <configuration name="TangyWeb_Client" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TangyWeb_Client/TangyWeb_Client.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
@@ -83,6 +85,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
+      <browser name="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
@@ -106,6 +109,12 @@
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.TangyWeb_Client" />
+      <item itemvalue=".NET Launch Settings Profile.TangyWeb_Client: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.TangyWeb_Server" />
+      <item itemvalue=".NET Launch Settings Profile.TangyWeb_Server: IIS Express" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -116,14 +125,24 @@
       <option name="presentableId" value="Default" />
       <updated>1650429537970</updated>
       <workItem from="1650429542804" duration="691000" />
+      <workItem from="1651202273873" duration="774000" />
+      <workItem from="1651203070971" duration="145000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Rider config files.">
+      <created>1651202454844</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651202454844</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -138,5 +157,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Added Rider config files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Rider config files." />
   </component>
 </project>
