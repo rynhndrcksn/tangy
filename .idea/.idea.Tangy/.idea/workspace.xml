@@ -10,9 +10,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28bf0db4-1589-4c03-bc25-45844e3e8202" name="Changes" comment="">
+    <list default="true" id="28bf0db4-1589-4c03-bc25-45844e3e8202" name="Changes" comment="Section 17/18 done.&#10;&#10;Assignment 1: Data Binding is finished.">
+      <change afterPath="$PROJECT_DIR$/Tangy_Models/LearnBlazorModels/Demo_ProductProp.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tangy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tangy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/BindProp.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/BindProp.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tangy_Models/LearnBlazorModels/Demo_Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tangy_Models/LearnBlazorModels/Demo_Product.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +29,16 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/BindProp.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="282zaayfEjgJvLm8VtzmHkFuHWS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.TangyWeb_Server">
@@ -126,7 +134,7 @@
       <workItem from="1650429542804" duration="691000" />
       <workItem from="1651202273873" duration="774000" />
       <workItem from="1651203070971" duration="494000" />
-      <workItem from="1651204892258" duration="858000" />
+      <workItem from="1651204892258" duration="3015000" />
     </task>
     <task id="LOCAL-00001" summary="Added Rider config files.">
       <created>1651202454844</created>
@@ -142,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651203557597</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Section 17/18 done.&#10;&#10;Assignment 1: Data Binding is finished.">
+      <created>1651205898627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651205898627</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +181,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Added Rider config files." />
     <MESSAGE value="Section 17 done.&#10;&#10;Added single and two way data binding." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 17 done.&#10;&#10;Added single and two way data binding." />
+    <MESSAGE value="Section 17/18 done.&#10;&#10;Assignment 1: Data Binding is finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 17/18 done.&#10;&#10;Assignment 1: Data Binding is finished." />
   </component>
 </project>
