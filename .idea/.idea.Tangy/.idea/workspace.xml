@@ -10,10 +10,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28bf0db4-1589-4c03-bc25-45844e3e8202" name="Changes" comment="Section 21 done.&#10;&#10;Refactored code to make it appear better in file + site.">
+    <list default="true" id="28bf0db4-1589-4c03-bc25-45844e3e8202" name="Changes" comment="Section 24/25 done.&#10;&#10;Assignment 2 is finished.">
+      <change afterPath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/DemoProduct.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tangy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tangy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/BindProp.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/BindProp.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tangy_Models/LearnBlazorModels/Demo_Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tangy_Models/LearnBlazorModels/Demo_Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TangyWeb_Server/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TangyWeb_Server/Shared/NavMenu.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/BindProp.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/BindProp.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/_Imports.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/BindProp.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -135,7 +136,7 @@
       <workItem from="1650429542804" duration="691000" />
       <workItem from="1651202273873" duration="774000" />
       <workItem from="1651203070971" duration="494000" />
-      <workItem from="1651204892258" duration="5593000" />
+      <workItem from="1651204892258" duration="6783000" />
     </task>
     <task id="LOCAL-00001" summary="Added Rider config files.">
       <created>1651202454844</created>
@@ -172,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651209686139</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Section 24/25 done.&#10;&#10;Assignment 2 is finished.">
+      <created>1651211780730</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651211780730</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +207,8 @@
     <MESSAGE value="Section 17/18 done.&#10;&#10;Assignment 1: Data Binding is finished." />
     <MESSAGE value="Section 20 done.&#10;&#10;Added extra property that hold more properties." />
     <MESSAGE value="Section 21 done.&#10;&#10;Refactored code to make it appear better in file + site." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 21 done.&#10;&#10;Refactored code to make it appear better in file + site." />
+    <MESSAGE value="Section 24/25 done.&#10;&#10;Assignment 2 is finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 24/25 done.&#10;&#10;Assignment 2 is finished." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
