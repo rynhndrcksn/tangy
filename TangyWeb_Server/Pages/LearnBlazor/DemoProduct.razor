@@ -5,7 +5,7 @@
     <div class="row d-flex justify-content-evenly">
         @foreach (var prod in _products)
         {
-            <_ProductCard Prod="prod"/>
+            <_ProductCard Prod="prod" OnFaveUpdated="FaveCountUpdate"/>
         }
     </div>
 </div>

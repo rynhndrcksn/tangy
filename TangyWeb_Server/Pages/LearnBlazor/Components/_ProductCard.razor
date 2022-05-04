@@ -2,8 +2,8 @@
     <h3>@Prod.Name</h3>
     <p>ID: @Prod.Id</p>
     <div class="form-group">
-        <label for="fave">Add to Favorites</label>
-        <input type="checkbox" id="fave">
+        <label for="fave-@Prod.Id">Add to Favorites</label>
+        <input type="checkbox" id="fave-@Prod.Id" onchange="@FavoriteUpdated">
     </div>
     <p>Show Properties: <input type="checkbox" @bind="Prod.IsActive"/></p>
     @if (Prod.IsActive)
@@ -19,4 +19,12 @@
 @code {
     [Parameter]
     public Demo_Product Prod { get; set; }
+    
+    [Parameter]
+    public EventCallback<bool> OnFaveUpdated { get; set; }
+
+    private async Task FavoriteUpdated(ChangeEventArgs e)
+    {
+        await OnFaveUpdated.InvokeAsync((bool) (e.Value ?? throw new InvalidOperationException()));
+    }
 }
