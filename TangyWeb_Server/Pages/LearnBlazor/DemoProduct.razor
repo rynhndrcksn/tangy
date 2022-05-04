@@ -5,19 +5,7 @@
     <div class="row d-flex justify-content-evenly">
         @foreach (var prod in _products)
         {
-            <div class="bg-light border col-md-4">
-                <h3>@prod.Name</h3>
-                <p>ID: @prod.Id</p>
-                <p>Show Properties: <input type="checkbox" @bind="prod.IsActive"/></p>
-                @if (prod.IsActive)
-                {
-                    @foreach (var prodProp in prod.ProductProps)
-                    {
-                        <p>@prodProp.Key - @prodProp.Value</p>
-                    }
-                }
-                <_EditDeleteButtons IsActive="@prod.IsActive"/>
-            </div>
+            <_ProductCard Prod="prod"/>
         }
     </div>
 </div>
