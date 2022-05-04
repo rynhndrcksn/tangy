@@ -1,6 +1,10 @@
 <div class="bg-light border col-md-4">
     <h3>@Prod.Name</h3>
     <p>ID: @Prod.Id</p>
+    <div class="form-group">
+        <label for="fave">Add to Favorites</label>
+        <input type="checkbox" id="fave">
+    </div>
     <p>Show Properties: <input type="checkbox" @bind="Prod.IsActive"/></p>
     @if (Prod.IsActive)
     {

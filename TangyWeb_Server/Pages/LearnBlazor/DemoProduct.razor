@@ -1,6 +1,6 @@
 @page "/learnblazor/DemoProduct"
 <h2>DemoProduct</h2>
-
+<p>Total favorite: @SelectedFaveCount</p>
 <div class="border container">
     <div class="row d-flex justify-content-evenly">
         @foreach (var prod in _products)
@@ -12,6 +12,7 @@
 
 @code {
     List<Demo_Product> _products = new();
+    private int SelectedFaveCount { get; set; } = 0;
     
     protected override void OnInitialized()
     {
@@ -41,5 +42,17 @@
                 new() {Id = 3, Key = "Color", Value = "White"}
             }
         });
+    }
+
+    protected void FaveCountUpdate(bool isSelected)
+    {
+        if (isSelected)
+        {
+            SelectedFaveCount++;
+        }
+        else
+        {
+            SelectedFaveCount--;
+        }
     }
 }
