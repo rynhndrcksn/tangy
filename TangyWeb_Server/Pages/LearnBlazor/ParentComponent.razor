@@ -2,13 +2,20 @@
 
 <h3>Parent/Child Relation</h3>
 
-<_ChildComponent Title="This title is passed as a parameter from the parent component">
+<_ChildComponent OnButtonClick="ShowMessage" Title="This title is passed as a parameter from the parent component">
     Render fragment from parent component!
 </_ChildComponent>
+
+<p>@MessageText</p>
 
 <_ChildComponent Title="This title is a second call">
 </_ChildComponent>
 
 @code {
-    
+    public string MessageText = "Click the button";
+
+    private void ShowMessage()
+    {
+        MessageText = "Child component button clicked.";
+    }
 }
