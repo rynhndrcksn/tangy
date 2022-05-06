@@ -1,0 +1,11 @@
+<div class="container">
+    <h4 class="text-primary pt-3">Another Child Component</h4>
+    <div class="form-group">
+        <label for="name">Enter your name</label>
+        <input type="text" id="name" placeholder="@Placeholder">
+    </div>
+</div>
+@code {
+    [Parameter]
+    public string Placeholder { get; set; }
+}
