@@ -10,9 +10,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28bf0db4-1589-4c03-bc25-45844e3e8202" name="Changes" comment="Sect. 5, step 42 done.&#10;&#10;Streamlined attribute splatting.">
-      <change afterPath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/Components/_GrandChildComponent.razor" afterDir="false" />
+    <list default="true" id="28bf0db4-1589-4c03-bc25-45844e3e8202" name="Changes" comment="Sect. 5, step 43 done.&#10;&#10;Passed parameters from ParentComponent to GrandChildComponent through ChildComponent.">
       <change beforePath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/Components/_ChildComponent.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/Components/_ChildComponent.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/Components/_GrandChildComponent.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/Components/_GrandChildComponent.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/ParentComponent.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/ParentComponent.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/Components/_ChildComponent.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/Components/_ChildComponent.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/Components/_ChildComponent.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/Components/_AnotherChildComponent.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -137,7 +139,7 @@
       <workItem from="1651203070971" duration="494000" />
       <workItem from="1651204892258" duration="6964000" />
       <workItem from="1651636220105" duration="4310000" />
-      <workItem from="1651803831008" duration="6836000" />
+      <workItem from="1651803831008" duration="7351000" />
     </task>
     <task id="LOCAL-00001" summary="Added Rider config files.">
       <created>1651202454844</created>
@@ -265,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651812778188</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Sect. 5, step 43 done.&#10;&#10;Passed parameters from ParentComponent to GrandChildComponent through ChildComponent.">
+      <created>1651813264219</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1651813264219</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +314,8 @@
     <MESSAGE value="Sect. 5, step 40 done.&#10;&#10;Used the parent component to call the child component and passed a placeholder value along with it..." />
     <MESSAGE value="Sect. 5, step 41 done.&#10;&#10;Did attribute splatting to pass along attributes to input field." />
     <MESSAGE value="Sect. 5, step 42 done.&#10;&#10;Streamlined attribute splatting." />
-    <option name="LAST_COMMIT_MESSAGE" value="Sect. 5, step 42 done.&#10;&#10;Streamlined attribute splatting." />
+    <MESSAGE value="Sect. 5, step 43 done.&#10;&#10;Passed parameters from ParentComponent to GrandChildComponent through ChildComponent." />
+    <option name="LAST_COMMIT_MESSAGE" value="Sect. 5, step 43 done.&#10;&#10;Passed parameters from ParentComponent to GrandChildComponent through ChildComponent." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
