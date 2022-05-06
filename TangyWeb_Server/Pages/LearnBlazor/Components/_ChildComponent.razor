@@ -1,13 +1,20 @@
 <div>
     <div class="alert alert-info">@Title</div>
     <div class="alert alert-success">
-        @if (ChildContent != null)
+        @if (@DangerChildContent != null)
         {
-            <span>@ChildContent</span>
+            <span>@DangerChildContent</span>
         }
         else
         {
-            <span>Default message :(</span>
+            @if (ChildContent != null)
+            {
+                <span>@ChildContent</span>
+            }
+            else
+            {
+                <span>Default message :(</span>
+            }
         }
     </div>
     <button class="btn btn-danger" @onclick="OnButtonClick">Trigger function!</button>
@@ -20,6 +27,9 @@
     [Parameter]
     public RenderFragment ChildContent { get; set; } // THIS HAS TO BE CALLED ChildContent OR ELSE AN EXCEPTION HAPPENS
     
+    [Parameter]
+    public RenderFragment DangerChildContent { get; set; }
+
     [Parameter]
     public EventCallback OnButtonClick { get; set; }
 }
