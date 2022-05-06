@@ -3,13 +3,16 @@
 @page "/learnBlazor/LearnRouting/{param1}/{param2}"
 
 @inject NavigationManager _navigationManager
-
+@*
+The above is necessary to pull out URI parameters if they aren't accepted pre approved ones.
+*@
 <h3>LearnRouting</h3>
 
 <p>Value of Parameter1: @Parameter1</p>
 <p>Value of Parameter2: @Parameter2</p>
 
-<a href="/learnBlazor/LearnRouting?Param1=Tangy&Param2=Blazor">Navigate to query parameters</a>
+@* <a href="/learnBlazor/LearnRouting?Param1=Tangy&Param2=Blazor">Navigate to query parameters</a> *@
+<button @onclick="NavToQueryParam" class="btn btn-primary">Navigate to query params</button>
 <button @onclick="LoadParameters">Load query parameters</button>
 
 <h3>Query String Parameters: </h3>
@@ -34,5 +37,10 @@
         var queryParam = System.Web.HttpUtility.ParseQueryString(absoluteUri.Query);
         Param1 = queryParam["param1"];
         Param2 = queryParam["param2"];
+    }
+
+    private void NavToQueryParam()
+    {
+        _navigationManager.NavigateTo("/learnBlazor/LearnRouting?Param1=Tangy&Param2=Blazor");
     }
 }
