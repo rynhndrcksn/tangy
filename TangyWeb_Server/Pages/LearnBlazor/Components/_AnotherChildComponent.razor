@@ -2,10 +2,26 @@
     <h4 class="text-primary pt-3">Another Child Component</h4>
     <div class="form-group">
         <label for="name">Enter your name</label>
-        <input type="text" id="name" placeholder="@Placeholder">
+        <input type="text" id="name" @attributes="InputAttributes">
     </div>
 </div>
 @code {
+    // This is the inefficient way...
+    // [Parameter]
+    // public string Placeholder { get; set; }
+    //
+    // [Parameter]
+    // public int MinLength { get; set; } = 1;
+    //
+    // [Parameter]
+    // public int MaxLength { get; set; } = 16;
+
     [Parameter]
-    public string Placeholder { get; set; }
+    public Dictionary<string, object> InputAttributes { get; set; } = new Dictionary<string, object>()
+    {
+        {"placeholder", "Original placeholder"},
+        {"minlength", 1},
+        {"maxlength", 10}
+    };
+
 }

@@ -13,7 +13,7 @@
     <DangerChildContent>Danger content from render fragment!</DangerChildContent>
 </_ChildComponent>
 
-<_AnotherChildComponent Placeholder="Parent placeholder">
+<_AnotherChildComponent InputAttributes="InputAttributesFromParent">
 </_AnotherChildComponent>
 
 @code {
@@ -23,4 +23,11 @@
     {
         MessageText = "Child component button clicked.";
     }
+    
+    public Dictionary<string, object> InputAttributesFromParent { get; set; } = new Dictionary<string, object>()
+    {
+        {"placeholder", "New placeholder"},
+        {"minlength", 2},
+        {"maxlength", 20}
+    };
 }
