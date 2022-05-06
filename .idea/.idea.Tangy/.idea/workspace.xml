@@ -10,8 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28bf0db4-1589-4c03-bc25-45844e3e8202" name="Changes" comment="Sect. 5, step 43 done.&#10;&#10;Passed parameters from ParentComponent to GrandChildComponent through ChildComponent.">
-      <change beforePath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/Components/_ChildComponent.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/Components/_ChildComponent.razor" afterDir="false" />
+    <list default="true" id="28bf0db4-1589-4c03-bc25-45844e3e8202" name="Changes" comment="Sect. 5, step 44 done.&#10;&#10;Created cascading parameter.">
       <change beforePath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/Components/_GrandChildComponent.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/Components/_GrandChildComponent.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/ParentComponent.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/ParentComponent.razor" afterDir="false" />
     </list>
@@ -29,6 +28,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/Components/_ChildComponent.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/Components/_ChildComponent.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/Components/_ChildComponent.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/Components/_ChildComponent.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -139,7 +139,7 @@
       <workItem from="1651203070971" duration="494000" />
       <workItem from="1651204892258" duration="6964000" />
       <workItem from="1651636220105" duration="4310000" />
-      <workItem from="1651803831008" duration="7351000" />
+      <workItem from="1651803831008" duration="7757000" />
     </task>
     <task id="LOCAL-00001" summary="Added Rider config files.">
       <created>1651202454844</created>
@@ -274,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651813264219</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Sect. 5, step 44 done.&#10;&#10;Created cascading parameter.">
+      <created>1651813606484</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1651813606484</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +322,8 @@
     <MESSAGE value="Sect. 5, step 41 done.&#10;&#10;Did attribute splatting to pass along attributes to input field." />
     <MESSAGE value="Sect. 5, step 42 done.&#10;&#10;Streamlined attribute splatting." />
     <MESSAGE value="Sect. 5, step 43 done.&#10;&#10;Passed parameters from ParentComponent to GrandChildComponent through ChildComponent." />
-    <option name="LAST_COMMIT_MESSAGE" value="Sect. 5, step 43 done.&#10;&#10;Passed parameters from ParentComponent to GrandChildComponent through ChildComponent." />
+    <MESSAGE value="Sect. 5, step 44 done.&#10;&#10;Created cascading parameter." />
+    <option name="LAST_COMMIT_MESSAGE" value="Sect. 5, step 44 done.&#10;&#10;Created cascading parameter." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
