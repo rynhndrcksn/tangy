@@ -10,10 +10,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28bf0db4-1589-4c03-bc25-45844e3e8202" name="Changes" comment="Sect. 5, step 45 done.&#10;&#10;Covered passing down multiple cascading parameters.">
-      <change afterPath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/LearnRouting.razor" afterDir="false" />
+    <list default="true" id="28bf0db4-1589-4c03-bc25-45844e3e8202" name="Changes" comment="Sect. 5, step 46 done.&#10;&#10;Learned basic routing with optional parameters.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tangy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tangy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TangyWeb_Server/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TangyWeb_Server/Shared/NavMenu.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/LearnRouting.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/LearnRouting.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +140,7 @@
       <workItem from="1651203070971" duration="494000" />
       <workItem from="1651204892258" duration="6964000" />
       <workItem from="1651636220105" duration="4310000" />
-      <workItem from="1651803831008" duration="8494000" />
+      <workItem from="1651803831008" duration="9666000" />
     </task>
     <task id="LOCAL-00001" summary="Added Rider config files.">
       <created>1651202454844</created>
@@ -290,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651813935042</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Sect. 5, step 46 done.&#10;&#10;Learned basic routing with optional parameters.">
+      <created>1651814645853</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1651814645853</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +339,8 @@
     <MESSAGE value="Sect. 5, step 43 done.&#10;&#10;Passed parameters from ParentComponent to GrandChildComponent through ChildComponent." />
     <MESSAGE value="Sect. 5, step 44 done.&#10;&#10;Created cascading parameter." />
     <MESSAGE value="Sect. 5, step 45 done.&#10;&#10;Covered passing down multiple cascading parameters." />
-    <option name="LAST_COMMIT_MESSAGE" value="Sect. 5, step 45 done.&#10;&#10;Covered passing down multiple cascading parameters." />
+    <MESSAGE value="Sect. 5, step 46 done.&#10;&#10;Learned basic routing with optional parameters." />
+    <option name="LAST_COMMIT_MESSAGE" value="Sect. 5, step 46 done.&#10;&#10;Learned basic routing with optional parameters." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
