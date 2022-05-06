@@ -2,16 +2,16 @@
 
 <h3>Parent/Child Relation</h3>
 
-<_ChildComponent OnButtonClick="ShowMessage" Title="This title is passed as a parameter from the parent component">
+<_ChildComponent OnButtonClick="ShowMessage" Title="This title is passed as a parameter from the parent component" MessageForGrandChild="Message from GrandParent">
     Render fragment from parent component!
 </_ChildComponent>
 
 <p>@MessageText</p>
 
-<_ChildComponent Title="This title is a second call">
-    <ChildContent>A second way to render fragments!</ChildContent>
-    <DangerChildContent>Danger content from render fragment!</DangerChildContent>
-</_ChildComponent>
+@* <_ChildComponent Title="This title is a second call"> *@
+@*     <ChildContent>A second way to render fragments!</ChildContent> *@
+@*     <DangerChildContent>Danger content from render fragment!</DangerChildContent> *@
+@* </_ChildComponent> *@
 
 <_AnotherChildComponent placeholder="Placeholder from parent">
 </_AnotherChildComponent>
