@@ -7,6 +7,10 @@
 <div class="row">
     <button class="btn btn-secondary" @onclick="TestConfirmBox">Test Confirm Button</button>
 </div>
+<div class="row">
+    <button class="btn btn-success" @onclick="ToastrSuccess">Toastr Success</button>
+    <button class="btn btn-danger" @onclick="ToastrError">Toastr Error</button>
+</div>
 
 <div class="row">
     <p>Confirm Result is: @ConfirmResult</p>
@@ -18,7 +22,17 @@
     
     private async Task TestConfirmBox()
     {
-        // Creates a JS confirm box with our custom ConfirmMessage.
+    // Creates a JS confirm box with our custom ConfirmMessage.
         ConfirmResult = await _jsRuntime.InvokeAsync<bool>("confirm", ConfirmMessage);
+    }
+
+    private async Task ToastrSuccess()
+    {
+        await _jsRuntime.InvokeVoidAsync("ShowToastr", "success", "You did it!");
+    }
+
+    private async Task ToastrError()
+    {
+        await _jsRuntime.InvokeVoidAsync("ShowToastr", "error", "It failed :(");
     }
 }
