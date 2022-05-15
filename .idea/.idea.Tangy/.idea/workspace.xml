@@ -10,8 +10,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28bf0db4-1589-4c03-bc25-45844e3e8202" name="Changes" comment="Sect. 5, step 47 done.&#10;&#10;Messed with routes more.">
-      <change beforePath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/LearnRouting.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/LearnRouting.razor" afterDir="false" />
+    <list default="true" id="28bf0db4-1589-4c03-bc25-45844e3e8202" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TangyWeb_Server/Pages/LearnBlazor/BlazorJS.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tangy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tangy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TangyWeb_Server/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TangyWeb_Server/Shared/NavMenu.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,15 +27,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/Components/_ChildComponent.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/Components/_ChildComponent.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/Components/_ChildComponent.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/Components/_ChildComponent.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/Components/_AnotherChildComponent.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/Components/_GrandChildComponent.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/ryan/Projects/Tangy/TangyWeb_Server/Pages/LearnBlazor/Components/_AnotherChildComponent.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -139,7 +132,8 @@
       <workItem from="1651203070971" duration="494000" />
       <workItem from="1651204892258" duration="6964000" />
       <workItem from="1651636220105" duration="4310000" />
-      <workItem from="1651803831008" duration="10117000" />
+      <workItem from="1651803831008" duration="10492000" />
+      <workItem from="1652576687340" duration="1109000" />
     </task>
     <task id="LOCAL-00001" summary="Added Rider config files.">
       <created>1651202454844</created>
@@ -302,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651815954689</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Sect. 5, step 48 done.&#10;&#10;Used Navigation Manager to pull Uri's and navigate to new ones.">
+      <created>1651816594780</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1651816594780</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +348,8 @@
     <MESSAGE value="Sect. 5, step 45 done.&#10;&#10;Covered passing down multiple cascading parameters." />
     <MESSAGE value="Sect. 5, step 46 done.&#10;&#10;Learned basic routing with optional parameters." />
     <MESSAGE value="Sect. 5, step 47 done.&#10;&#10;Messed with routes more." />
-    <option name="LAST_COMMIT_MESSAGE" value="Sect. 5, step 47 done.&#10;&#10;Messed with routes more." />
+    <MESSAGE value="Sect. 5, step 48 done.&#10;&#10;Used Navigation Manager to pull Uri's and navigate to new ones." />
+    <option name="LAST_COMMIT_MESSAGE" value="Sect. 5, step 48 done.&#10;&#10;Used Navigation Manager to pull Uri's and navigate to new ones." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
